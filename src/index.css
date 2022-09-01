@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 :root {
   --light: #d0d1d3;
   --dark: #040d14;
   --green: #21ce99;
+  --green-text: #6fd9b8;
 }
 
 body {
@@ -14,10 +15,14 @@ body {
 }
 
 h1 {
-  color: var(--green);
+  color: var(--green-text);
+  font-weight: 900;
 }
 
 h2 {
+  color: var(--green);
+}
+h3 {
   color: var(--green);
 }
 
